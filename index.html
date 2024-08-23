@@ -1,129 +1,161 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batch-10-Assaignment-3</title>
+<html lang="en" data-theme="light">
 
-    <!-- Google font cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batch-10-Assaignment-3</title>
 
-    <!-- icon cdn -->
-    <script src="https://kit.fontawesome.com/86b1455485.js" crossorigin="anonymous"></script>
+  <!-- Google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
-    <!-- Daisy UI cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- icon cdn -->
+  <script src="https://kit.fontawesome.com/86b1455485.js" crossorigin="anonymous"></script>
 
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: '#da373d',
-              'bike-primary': '#E76F51',
-              'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
-            },
+  <!-- Daisy UI cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'bike-primary': '#E76F51',
+            'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
           },
         },
-      }
-    </script>
-<!-- css style -->
+      },
+    }
+  </script>
+  <!-- css style -->
 
-<style>
-    .body{
-        font-family: "Manrope", sans-serif;
-        }
-        .bg-photo{
-            background-image: url(./assets/paper.jpg);
-            background-position: cover;
-            background-repeat: no-repeat;
-            object-fit: contain;
-            width: 100%;
-        }
+  <style>
+    .body {
+      font-family: "Manrope", sans-serif;
+    }
+
+    .bg-photo {
+      background-image: url(./assets/paper.jpg);
+      background-position: cover;
+      background-repeat: no-repeat;
+      object-fit: contain;
+      width: 100%;
+    }
   </style>
 
 </head>
+
 <body class="body">
 
   <!-- Header section -->
-    <header class="md:container mx-auto ">
-      <!-- navber section  -->
-      <nav>
-        <div class="navbar bg-base-100">
-          <div class="flex-1">
-            <div class="dropdown">
-            </div>
-        <div class="">
+  <header class="md:container mx-auto ">
+    <!-- navber section  -->
+
+
+    <div class="navbar bg-base-100 bg-transparent pt-5 md:pt-10">
+
+      <div class=" navbar-start">
           <a class="">
-            <div class="flex gap-2 ">
-                <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-lime-300 rounded-full"></i>
-                <h1 class="text-3xl font-bold">Rinterio</h1>
-            </div>
-            </a>            </div>
-          </div>
-          <div class="navbar-center lg:flex hidden">
-          </div>
-          <ul class="text-black md:flex hidden md:gap-20   mt-5">
-            <li class="font-bold"><a>Home</a></li>
-            <li><a>Services</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
-          </ul>
-
-          <div class="md:hidden mr-3" >
-            <i class="fa-solid fa-bars "></i>
-          </div>
-
-          <div class="md:flex hidden">
-            <div><i class="fa-solid fa-magnifying-glass mt-5 mr-4 ml-5 w-[50px] h-[50px] rounded-full bg-gray-200 p-4"></i></div>
-            <div><i class="fa-solid fa-cart-shopping mt-5 mr-4 ml-5 w-[50px] h-[50px] rounded-full bg-gray-200 p-4"></i></div>
-          </div>
-          <div>
+              <div class="flex gap-2 ">
+                  <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-lime-400 rounded-full"></i>
+                  <h1 class="text-3xl font-bold">Rinterio</h1>
               </div>
-          <div class=""flex>
-            <a class="btn md:flex hidden mt-5 ml-4  bg-lime-300 w-44  rounded-full h-10 text-black">Book Consult <i class="fa-solid fa-arrow-right w-[40px] h-[40px] rounded-full bg-black text-white p-3  -rotate-45"></i> </a>
+          </a>
+      </div>
+
+      <div class="navbar-center hidden md:flex">
+          <ul class="flex xl:gap-6 gap-4">
+              <li><a href="#" class="font-bold">Home</a></li>
+              <li><a href="#" class="">Services</a></li>
+              <li><a href="#" class="">Portfolio</a></li>
+              <li><a href="#" class="">Blogs</a></li>
+              <li><a href="#" class="">Contact Us</a></li>
+          </ul>
+      </div>
+
+
+      <div class="navbar-end">
+          <div class="hidden md:flex items-center gap-3">
+              <i class="fa-solid fa-magnifying-glass p-3 bg-gray-300 rounded-full"></i>
+              <i class="fa-solid fa-cart-shopping p-3 bg-gray-300 rounded-full"></i>
+              <div class="flex gap-2 bg-lime-300 px-4 py-2 rounded-full items-center">
+                  <h1 class="text-xl font-bold">Book Consult</h1>
+                  <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-3 w-10 bg-black text-white rounded-full"></i>
+              </div>
           </div>
-        </div>
-      </nav>
+
+          <div class="dropdown dropdown-left">
+              <div tabindex="0" role="button" class="  md:hidden">
+                  <i class="fa-solid fa-bars p-3 bg-lime-300 rounded-full"></i>
+              </div>
+
+<ul tabindex="0"
+  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-9 w-32 p-2 shadow">
+  <li><a href="#" class="">Home</a></li>
+  <li><a href="#" class="">Services</a></li>
+  <li><a href="#" class="">Portfolio</a></li>
+  <li><a href="#" class="">Blogs</a></li>
+  <li><a href="#" class="">Contact Us</a></li>
+</ul>
+          </div>
+      </div>
+  </div>
+
+          
+  
 
 
-          <!-- banner sektion -->
-           <div>
-            <div class="flex justify-center items-center mt-16">
-                <img src="./assets/banner.png" alt="">
-            </div>
+    <!-- banner sektion -->
+    <div>
+      <div class="flex justify-center items-center mt-16">
+        <img src="./assets/banner.png" alt="">
+      </div>
 
-            <div class="text-center md:space-y-6 space-y-3">
-              <h1 class=" md:text-7xl font-bold text-3xl ">A barn house of this design has <br> a  striking appearance
-                </h1>
+      <div class="text-center md:space-y-6 space-y-3 md:pb-14 pb-5">
+        <h1 class=" md:text-7xl font-bold text-3xl ">A barn house of this design has <br> a striking appearance
+        </h1>
 
-                <p class="mt-3 w-4/5 mx-auto ">This barn house stands out with its striking design, blending rustic charm with modern elegance. The exterior features a classic gabled roof, complemented by large, open windows that invite natural light into the space. </p>
+        <p class="mt-3 w-4/5 mx-auto ">This barn house stands out with its striking design, blending rustic charm with
+          modern elegance. The exterior features a classic gabled roof, complemented by large, open windows that invite
+          natural light into the space. </p>
 
-                <button class="btn bg-lime-200 rounded-full  w-48">View Details<i class="fa-solid fa-arrow-right w-[40px] h-[40px] rounded-full bg-lime-400 text-white p-3  -rotate-45"></i></button>
-            </div>
-           </div>
-        </header>
-        <!-- Main section -->
-    
-    
-        <main class="bg-gray-100 mt-8  w-full" >
-           <div class="lg:mt-44  bg-gray-100  md:container mx-auto">
+          <div class="  flex items-center justify-center ">
+            <button class="md:flex bg-lime-200 rounded-full justify-center p-2  w-full md:w-[250px] ">
+              <div class="flex justify-center gap-2  px-4  rounded-full items-center">
+                  <h1 class="text-xl font-bold">View Details</h1>
+                  <i class="fa-solid fa-arrow-right -rotate-45 p-3 bg-lime-400 rounded-full"></i>
+              </div>
+          </button>
+</div>
+
+       
+      </div>
+    </div>
+  </header>
+  <!-- Main section -->
+
+
+  <main class="bg-gray-100   w-full">
+    <div class="  bg-gray-100  md:container mx-auto">
 
       <!-- First section -->
 
       <div class="md:flex justify-between">
         <div>
           <img class="ml-20 pt-14" src="./assets/Vector.png" alt="">
-          <button class="btn ml-32  mt-5 w-32 bg-white rounded-full font-bold"> <i class="fa-solid fa-arrow-right"></i> About us</button>
+          <button class="btn ml-32  mt-5 w-32 bg-white rounded-full font-bold"> <i class="fa-solid fa-arrow-right"></i>
+            About us</button>
           <h1 class="font-bold text-5xl ml-32 mt-16">We design thoughtful, <br> liveable spaces</h1>
-          <p class="ml-32 mt-4">At the heart of our design philosophy is the creation of spaces that are both thoughtful and livable. we create spaces that are not just beautiful but also enhance the quality of life for those who live in them.</p>
+          <p class="ml-32 mt-4">At the heart of our design philosophy is the creation of spaces that are both thoughtful
+            and livable. we create spaces that are not just beautiful but also enhance the quality of life for those who
+            live in them.</p>
 
 
 
@@ -157,199 +189,220 @@
         </div>
 
 
-          <div>
-            <img class="h-[500px] w-[1200px] md:mt-44 mt-5" src="./assets/Rectangle.png" alt="">
-          </div>
+        <div>
+          <img class="h-[500px] w-[1200px] md:mt-44 mt-5" src="./assets/Rectangle.png" alt="">
+        </div>
       </div>
 
 
       <!-- second sektion -->
-       <div class="mt-40 ">
+      <div class="mt-40 ">
         <div class="flex flex-col items-center text-center justify-center">
           <button class="btn rounded-full  w-52"><i class="fa-solid fa-arrow-right"></i>How we works</button>
           <h1 class="font-bold md:text-6xl text-4xl mt-10 ">Our Works Process</h1>
-          <p class=" mt-3">Our work process is designed to ensure that every project we undertake is executed with precision, creativity, and a clear focus on our clients' needs.</p>
+          <p class=" mt-3">Our work process is designed to ensure that every project we undertake is executed with
+            precision, creativity, and a clear focus on our clients' needs.</p>
         </div>
 
         <!-- making 4 box -->
-         <div class="lg:flex justify-between mt-10">
+        <div class="lg:flex justify-between mt-10">
           <!-- box-1 -->
-         <div class="h-[250px] rounded-xl w-[300px] bg-[#E7C1D3]">
-          <img class="mt-5 ml-5" src="./assets/concept.png" alt="">
-          <h1 class="font-bold mt-3 ml-5 text-3xl">Concept</h1>
-          <p class="mt-3 ml-5">Budget planning is a crucial step in the successful execution of any project, ensuring that resources are allocated effectively and financial goals are met.</p>
-         </div>
+          <div class="h-[250px] rounded-xl w-[300px] bg-[#E7C1D3]">
+            <img class="mt-5 ml-5" src="./assets/concept.png" alt="">
+            <h1 class="font-bold mt-3 ml-5 text-3xl">Concept</h1>
+            <p class="mt-3 ml-5">Budget planning is a crucial step in the successful execution of any project, ensuring
+              that resources are allocated effectively and financial goals are met.</p>
+          </div>
 
           <!-- box-2 -->
 
-         <div class="h-[250px] rounded-xl w-[300px] bg-[#EFDA6E]">
-          <img class="mt-5 ml-5" src="./assets/flow-chart.png" alt="">
-          <h1 class="font-bold mt-3 ml-5 text-3xl">Flow-Chart</h1>
-          <p class="mt-3 ml-5">A flowchart is a visual representation of a process, system, or workflow, designed to illustrate the sequence</p>
+          <div class="h-[250px] rounded-xl w-[300px] bg-[#EFDA6E]">
+            <img class="mt-5 ml-5" src="./assets/flow-chart.png" alt="">
+            <h1 class="font-bold mt-3 ml-5 text-3xl">Flow-Chart</h1>
+            <p class="mt-3 ml-5">A flowchart is a visual representation of a process, system, or workflow, designed to
+              illustrate the sequence</p>
 
-         </div>
+          </div>
 
 
-         <!-- box-3 -->
-         <div class="h-[250px] rounded-xl w-[300px] bg-[#A4DAC3]">
-          <img class="mt-5 ml-5" src="./assets/vision.png" alt="">
-          <h1 class="font-bold mt-3 ml-5 text-3xl">Supervision</h1>
-          <p class="mt-3 ml-5">Supervision is a critical aspect of ensuring that a project is executed according to plan, maintaining quality, safety.</p>
+          <!-- box-3 -->
+          <div class="h-[250px] rounded-xl w-[300px] bg-[#A4DAC3]">
+            <img class="mt-5 ml-5" src="./assets/vision.png" alt="">
+            <h1 class="font-bold mt-3 ml-5 text-3xl">Supervision</h1>
+            <p class="mt-3 ml-5">Supervision is a critical aspect of ensuring that a project is executed according to
+              plan, maintaining quality, safety.</p>
 
-         </div>
+          </div>
 
-         <!-- box-4 -->
-         <div class="h-[250px] rounded-xl w-[300px] bg-[#77AAEA] ">
-          <img class="mt-5 ml-5" src="./assets/budget-planning.png" alt="">
-          <h1 class="font-bold mt-3 ml-5 text-3xl">Budget Planning</h1>
-          <p class="mt-3 ml-5">Supervision is a critical aspect of ensuring that a project is executed according to plan, maintaining quality, safety.</p>
+          <!-- box-4 -->
+          <div class="h-[250px] rounded-xl w-[300px] bg-[#77AAEA] ">
+            <img class="mt-5 ml-5" src="./assets/budget-planning.png" alt="">
+            <h1 class="font-bold mt-3 ml-5 text-3xl">Budget Planning</h1>
+            <p class="mt-3 ml-5">Supervision is a critical aspect of ensuring that a project is executed according to
+              plan, maintaining quality, safety.</p>
 
-         </div>
+          </div>
         </div>
-       </div>
-
       </div>
 
-    
-
-
-    </main>
-
-
-           <!-- Challenging section or third section-->
-
-    <div class="w-full mt-10 md:mt-52  md:container mx-auto ">
-      <div class="">
-        <button class="btn  bg-lime-200 md:ml-[40%] rounded-full w-64 "><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
-        <h1 class="font-bold text-4xl  md:ml-[33%] mt-3 md:text-6xl">Our Latest Portfolio</h1>
-        <p class="md:ml-[25%] mt-3">Our latest portfolio showcases a diverse range of projects that highlight our commitment to excellence, creativity</p>
-        <div class="md:flex">
-          <div class="md:flex border-2 md:ml-24 rounded-xl mt-5 border-black md:h-[230px] md:w-[800px]">
-            <div>
-              <img class="mt-4 md:h-[200px] ml-3  md:w-[600px]" src="./assets/img1.png" alt="">
-            </div>
-            <div>
-              <h1 class="font-bold text-3xl  ml-5 mt-7">Commercial</h1>
-              <p class="ml-5 mt-3">In the commercial sector, our designs are driven by a deep understanding of business needs and a commitment to creating environments that enhance productivity and customer experience.</p>
-              <button class="btn hover:none ml-5 mt-3 mb-5">View Details<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
-            </div>
-
-          </div>
-          <div class="md:h-[230px] md:w-[400px] w-[360px] border-2 rounded-xl md:ml-5 mt-5 border-black">
-            <img class="md:h-[200px] md:mt-3 md:w-[300px] ml-4  md:ml-12" src="./assets/img2.png" alt="">
-          </div>
-
-        </div>
-      </div>
-      
-      
-      <div class="md:flex">
-        <div class="md:h-[230px] md:w-[280px] w-[250px] border-2 rounded-xl md:ml-24 mt-5 border-black">
-          <img class="md:h-[200px] md:mt-3 w-[200px]  ml-3" src="./assets/img3.png" alt="">
-        </div>
-
-        <div class="border-2 md:flex border-black rounded-xl md:h-[230px] md:ml-5 mt-5 md:w-[610px]">
-          <img class="ml-3 mt-4 md:w-[270px] md:h-[200px]" src="./assets/img4.png" alt="">
-        
-
-
-            <div>
-              <h1 class="font-bold text-3xl  ml-5 mt-7">Commercial</h1>
-              <p class="ml-5 mt-3">In the commercial sector, our designs are driven by a deep understanding of business needs.</p>
-              <button class="btn mb-5 hover:none ml-5 mt-3">View Details<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
-            </div>
-          </div>
-
-          <div class="md:h-[230px] md:w-[280px] border-2 rounded-xl md:ml-7 mt-5 w-[280px] border-black">
-            <img class="md:h-[200px] md:mt-3 w-[250px]  ml-3" src="./assets/img5.png" alt="">
-          </div>
-        </div>
     </div>
 
 
 
-     <!-- making login form -->
-      <div class="bg-photo mt-20 ">
-        <div class="">
-          <button class="btn w-48 bg-lime-100 rounded-full mt-24 md:ml-[40%]"><i class="fa-solid fa-arrow-right"></i>Let s Connect</button>
-          <h1 class="md:text-6xl 3xl md:ml-[26%] font-bold">Let s Discuss Next Project </h1>
-          <p class="md:ml-[20%] mt-3">we can ensure that the next project not only meets but exceeds your expectations. Reach out to us, and let’s start planning the future together!
-          </p>
+
+  </main>
+
+
+  <!-- Challenging section or third section-->
+
+  <div class="w-full mt-10 md:mt-52  md:container mx-auto ">
+    <div class="">
+      <button class="btn  bg-lime-200 md:ml-[40%] rounded-full w-64 "><i class="fa-solid fa-arrow-right"></i>Explore our
+        Latest works</button>
+      <h1 class="font-bold text-4xl  md:ml-[33%] mt-3 md:text-6xl">Our Latest Portfolio</h1>
+      <p class="md:ml-[25%] mt-3">Our latest portfolio showcases a diverse range of projects that highlight our
+        commitment to excellence, creativity</p>
+      <div class="md:flex">
+        <div class="md:flex border-2 md:ml-24 rounded-xl mt-5 border-black md:h-[230px] md:w-[800px]">
+          <div>
+            <img class="mt-4 md:h-[200px] ml-3  md:w-[600px]" src="./assets/img1.png" alt="">
+          </div>
+          <div>
+            <h1 class="font-bold text-3xl  ml-5 mt-7">Commercial</h1>
+            <p class="ml-5 mt-3">In the commercial sector, our designs are driven by a deep understanding of business
+              needs and a commitment to creating environments that enhance productivity and customer experience.</p>
+            <button class="btn hover:none ml-5 mt-3 mb-5">View Details<i
+                class="fa-solid fa-arrow-right -rotate-45"></i></button>
+          </div>
+
         </div>
+        <div class="md:h-[230px] md:w-[400px] w-[360px] border-2 rounded-xl md:ml-5 mt-5 border-black">
+          <img class="md:h-[200px] md:mt-3 md:w-[300px] ml-4  md:ml-12" src="./assets/img2.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="md:flex">
+      <div class="md:h-[230px] md:w-[280px] w-[250px] border-2 rounded-xl md:ml-24 mt-5 border-black">
+        <img class="md:h-[200px] md:mt-3 w-[200px]  ml-3" src="./assets/img3.png" alt="">
+      </div>
+
+      <div class="border-2 md:flex border-black rounded-xl md:h-[230px] md:ml-5 mt-5 md:w-[610px]">
+        <img class="ml-3 mt-4 md:w-[270px] md:h-[200px]" src="./assets/img4.png" alt="">
+
+
+
         <div>
+          <h1 class="font-bold text-3xl  ml-5 mt-7">Commercial</h1>
+          <p class="ml-5 mt-3">In the commercial sector, our designs are driven by a deep understanding of business
+            needs.</p>
+          <button class="btn mb-5 hover:none ml-5 mt-3">View Details<i
+              class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        </div>
+      </div>
 
-<div class="flex gap-10 items-center justify-center mt-10">
-  <input type="text" placeholder="First Name*" class="input h-14 w-[500px] rounded-full" />
-  <input type="text" placeholder="Last Name*" class="input h-14 w-[500px] rounded-full" />
+      <div class="md:h-[230px] md:w-[280px] border-2 rounded-xl md:ml-7 mt-5 w-[280px] border-black">
+        <img class="md:h-[200px] md:mt-3 w-[250px]  ml-3" src="./assets/img5.png" alt="">
+      </div>
+    </div>
+  </div>
 
-</div>
-<div class="flex gap-10 items-center justify-center mt-10">
-  <input type="text" placeholder="Phone Number*" class="input h-14 w-[500px] rounded-full" />
-  <input type="text" placeholder="Email Number*" class="input h-14 w-[500px] rounded-full" />
 
-</div>
 
-<div>
-  <textarea class="textarea textarea-bordered md:ml-[24%] mt-10  md:w-[1000px] h-[200px]" placeholder="Write your message here
+  <!-- making login form -->
+  <div class="bg-photo mt-20 ">
+    <div class="">
+      <button class="btn w-48 bg-lime-100 rounded-full mt-24 md:ml-[40%]"><i class="fa-solid fa-arrow-right"></i>Let s
+        Connect</button>
+      <h1 class="md:text-6xl 3xl md:ml-[26%] font-bold">Let s Discuss Next Project </h1>
+      <p class="md:ml-[20%] mt-3">we can ensure that the next project not only meets but exceeds your expectations.
+        Reach out to us, and let’s start planning the future together!
+      </p>
+    </div>
+    <div>
+
+      <div class="flex gap-10 items-center justify-center mt-10">
+        <input type="text" placeholder="First Name*" class="input h-14 w-[500px] rounded-full" />
+        <input type="text" placeholder="Last Name*" class="input h-14 w-[500px] rounded-full" />
+
+      </div>
+      <div class="flex gap-10 items-center justify-center mt-10">
+        <input type="text" placeholder="Phone Number*" class="input h-14 w-[500px] rounded-full" />
+        <input type="text" placeholder="Email Number*" class="input h-14 w-[500px] rounded-full" />
+
+      </div>
+
+      <div>
+        <textarea class="textarea textarea-bordered md:ml-[24%] mt-10  md:w-[1000px] h-[200px]" placeholder="Write your message here
   "></textarea>
-</div>
-
-  <button class="btn bg-lime-300 mb-20 mt-4 md:ml-[24%] md:w-[1000px] rounded-full">Send Mail<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
-
-        </div>
       </div>
 
+      <button class="btn bg-lime-300 mb-20 mt-4 md:ml-[24%] md:w-[1000px] rounded-full">Send Mail<i
+          class="fa-solid fa-arrow-right -rotate-45"></i></button>
 
-      <!-- making a extra section -->
-       <div class="">
-        <div>
-          <h1 class="md:text-6xl font-bold md:ml-[40%] mt-20 text-3xl">House Light</h1>
-          <p class="md:ml-[30%] mt-5 text-blue-500">House lighting plays a crucial role in creating the right ambiance and functionality within a home. House lighting plays a <br> <span class="md:ml-[13%]">crucial role in creating the right ambiance and functionality within a home.</span> </p>
-        </div>
-        <div class="md:flex md:gap-3 mt-6 mb-5 gap-10 md:space-y-0 space-y-3 md:p-0 p-3">
-          <div class="md:h-[300px] md:w-[500px]">
-            <img class="w-full h-full rounded-xl" src="./assets/hoom-1.webp" alt="">
-          </div>
+    </div>
+  </div>
 
-          <div class="md:h-[300px] md:w-[500px]">
-            <img class="w-full h-full rounded-xl" src="./assets/home-2.jpg" alt="">
-          </div>
 
-          <div class="md:h-[300px] md:w-[500px]">
-            <img class="w-full h-full rounded-xl" src="./assets/home-3.webp" alt="">
-          </div>
-          <div class="md:h-[300px] md:w-[500px]">
-            <img class="w-full h-full rounded-xl" src="./assets/home-4.jpg" alt="">
-          </div>
-        </div>
-       </div>
+  <!-- making a extra section -->
+  <div class="">
+    <div>
+      <h1 class="md:text-6xl font-bold md:ml-[40%] mt-20 text-3xl">House Light</h1>
+      <p class="md:ml-[30%] mt-5 text-blue-500">House lighting plays a crucial role in creating the right ambiance and
+        functionality within a home. House lighting plays a <br> <span class="md:ml-[13%]">crucial role in creating the
+          right ambiance and functionality within a home.</span> </p>
+    </div>
+    <div class="md:flex md:gap-3 mt-6 mb-5 gap-10 md:space-y-0 space-y-3 md:p-0 p-3">
+      <div class="md:h-[300px] md:w-[500px]">
+        <img class="w-full h-full rounded-xl" src="./assets/hoom-1.webp" alt="">
+      </div>
 
-     
+      <div class="md:h-[300px] md:w-[500px]">
+        <img class="w-full h-full rounded-xl" src="./assets/home-2.jpg" alt="">
+      </div>
 
-       <!-- footer section -->
-    <footer class="bg-black mt-3 border-none">
-      <!-- text -->
+      <div class="md:h-[300px] md:w-[500px]">
+        <img class="w-full h-full rounded-xl" src="./assets/home-3.webp" alt="">
+      </div>
+      <div class="md:h-[300px] md:w-[500px]">
+        <img class="w-full h-full rounded-xl" src="./assets/home-4.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- footer section -->
+  <footer class="bg-black mt-3 border-none">
+    <!-- text -->
+    <div>
+      <h1 class="font-bold text-4xl flex text-white pt-28 md:ml-[40%]"> <i
+          class="fa-solid fa-arrow-right h-[50px] w-[50px] rounded-full bg-lime-300 text-black -rotate-45 p-[8px]"></i>
+        Rinterio</h1>
+      <p class="text-white md:ml-[26%] mt-3">A logo is more than just a visual symbol; it's a powerful representation of
+        a brand's identity, values, and mission. </p>
+
+      <!-- navber -->
+    </div>
+    <ul class="text-white gap-10 md:flex md:gap-20 md:ml-[30%] md:mt-20 mt-5">
+      <li><a>Home</a></li>
+      <li><a>Services</a></li>
+      <li><a>Portfolio</a></li>
+      <li><a>Blogs</a></li>
+      <li><a>Contact Us</a></li>
+    </ul>
+    <div>
+
       <div>
-        <h1 class="font-bold text-4xl flex text-white pt-28 md:ml-[40%]"> <i class="fa-solid fa-arrow-right h-[50px] w-[50px] rounded-full bg-lime-300 text-black -rotate-45 p-[8px]"></i> Rinterio</h1>
-        <p class="text-white md:ml-[26%] mt-3">A logo is more than just a visual symbol; it's a powerful representation of a brand's identity, values, and mission. </p>
-
-        <!-- navber -->
+        <button class="btn bg-lime-400 rounded-full h-14 md:ml-[42%] w-52 mb-20 mt-10">Book Consult<i
+            class="fa-solid fa-arrow-right -rotate-45 "></i></button>
       </div>
-      <ul class="text-white gap-10 md:flex md:gap-20 md:ml-[30%] md:mt-20 mt-5">
-        <li><a>Home</a></li>
-        <li><a>Services</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Blogs</a></li>
-        <li><a>Contact Us</a></li>
-      </ul>
-      <div>
 
-        <div>
-          <button class="btn bg-lime-400 rounded-full h-14 md:ml-[42%] w-52 mb-20 mt-10">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 "></i></button>
-        </div>
-
-      </div>
-    </footer>
+    </div>
+  </footer>
 
 </body>
+
 </html>
