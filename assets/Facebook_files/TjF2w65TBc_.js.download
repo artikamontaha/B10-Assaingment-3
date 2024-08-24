@@ -1,0 +1,7 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometInstantGamesPlayerRHCActionCard3DQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="7222782141124571"}),null);
+__d("GamingDestinationFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("6203");b=d("FalcoLoggerInternal").create("gaming_destination",a);e=b;g["default"]=e}),98);
+__d("GamingVideoDestinationLoggingContext",["react"],(function(a,b,c,d,e,f,g){"use strict";var h;a=h||d("react");b={external_entrypoint:"unknown",surface:"unknown"};c=a.createContext(b);g["default"]=c}),98);
+__d("randomShuffle",["randomInt"],(function(a,b,c,d,e,f,g){function a(a,b,d){b===void 0&&(b=0);d===void 0&&(d=0);if(b>a.length-1-d)return a;for(d=a.length-1-d;d>b;d--){var e=c("randomInt")(d+1);if(e!==d){var f=a[e];a[e]=a[d];a[d]=f}}return a}g["default"]=a}),98);
+__d("useGamingVideoDestinationEventLogger",["GamingDestinationFalcoEvent","GamingVideoDestinationLoggingContext","react"],(function(a,b,c,d,e,f,g){"use strict";var h;b=h||d("react");var i=b.useCallback,j=b.useContext;function a(){var a=j(c("GamingVideoDestinationLoggingContext")),b=i(function(b,d){c("GamingDestinationFalcoEvent").log(function(){return babelHelpers["extends"]({event:b},a,d)})},[a]),d=i(function(a){b("click",a)},[b]),e=i(function(a){b("impression",a)},[b]);return{logClick:d,logEvent:b,logImpression:e}}g["default"]=a}),98);

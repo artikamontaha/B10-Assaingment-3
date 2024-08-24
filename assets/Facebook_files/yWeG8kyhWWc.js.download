@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("FDSTextWebUtils",[],(function(a,b,c,d,e,f){"use strict";function a(a){return a==null?void 0:a==="tertiary"?"tertiary":a}function b(a){return a==null?void 0:a==="tertiary"?"tertiary":a}function c(a){return a==null?void 0:a==="tertiary"?"tertiary":a}f.getFDSBodyColor=a;f.getFDSHeadlineColor=b;f.getFDSMetaColor=c}),66);
+__d("GroupsCometHistoryDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="7855981157849239"}),null);

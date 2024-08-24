@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useAdminMessageCTATitleLS",["I64","ReQL","ReQLSuspense"],(function(a,b,c,d,e,f,g){"use strict";var h;function a(a,b){var c=d("ReQLSuspense").useFirst(function(){var c;return d("ReQL").fromTableAscending(a.tables.admin_message_ctas).getKeyRange(b.threadKey,b.messageId,(c=b.adminMsgCtaId)!=null?c:(h||(h=d("I64"))).neg_one)},[a,b],f.id+":27");return c==null?void 0:c.title}g["default"]=a}),98);
