@@ -1,4 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("MWChatSearchResultType",["$InternalEnum"],(function(a,b,c,d,e,f){"use strict";a=b("$InternalEnum")({GROUP:"group",MESSAGE:"message",PAGE:"page",USER:"user",AI_BOT:"ai_bot"});c=a;f["default"]=c}),66);
-__d("isTlcSearchEnabled",["qex"],(function(a,b,c,d,e,f,g){"use strict";function a(){return c("qex")._("607")===!0}g["default"]=a}),98);
